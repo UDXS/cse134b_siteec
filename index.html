@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>D. Markarian.</title>
+    <script>
+        class HelloWorld extends HTMLElement {
+            connectedCallback() {
+                console.log("Hello World!");
+            }
+        }
+        customElements.define('hello-world', HelloWorld);
+    </script>
+</head>
+
+<body>
+    <hello-world></hello-world>
+    <header>
+    <picture>
+        <source srcset="assets/mainheropano.jpg">
+        <img width="500" alt="A panorama portrait of me." src="assets/mainheropano.jpg">
+    </picture>
+    </header>
+    <main>
+    <img width="200" src="assets/headshot.jpg" alt="My Headshot">
+
+    <h1><strong>D. Markarian</strong></h1>
+    <nav>
+    <ul>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="courseware.html">Courseware</a></li>
+        <li><a href="photography/index.html">Photography</a></li>
+        <li><a href="me.html">About</a></li>
+        <li><a href="experiments.html">Experiments</a></li>
+    </ul>
+</nav>
+
+
+</main>
+
+<footer>
+Copyright &copy; 2026 D. T. Markarian. All rights reserved.
+</footer>
+
+</body>
+
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photography portfolio of D. Markarian, featuring Foveon sensor shots.">
+    <title>D. Markarian - Photography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/aesthetic.css">
+    <script src="../assets/js/lightbox.js" defer></script>
+    <script src="../assets/js/loupe.js" defer></script>
+</head>
+
+<body>
+<nav>
+    <a href="../index.html"><h1>D. Markarian</h1></a>
+    <ul>
+        <li><a href="../research.html">Research</a></li>
+        <li><a href="../courseware.html">Courseware</a></li>
+        <li><a href="index.html">Photography</a></li>
+        <li><a href="../me.html">About</a></li>
+        <li><a href="../experiments.html">Experiments</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <h1>Photography</h1>
+        <p>Capturing the world through the unique Foveon sensor. Each image is a testament to the depth and punchiness of the Sigma Quattro series. <a href="cameras.html">See my cameras.</a></p>
+        <hr>
+        <figure class="hero-figure">
+            <picture>
+                <source srcset="../gallery/pano.webp">
+                <img src="../gallery/pano.webp" alt="Mt. Rainier - A panoramic view captured on a Foveon sensor" width="1500" loading="lazy">
+            </picture>
+            <figcaption>
+                <h3>Rainier Ultra on Foveon</h3>
+                <p>Date: July 2026 | Location: Mt. Rainier, Washington</p>
+                <p>Camera: Sigma dp2 Quattro | Integrated Lens | Foveon X3 Quattro sensor.</p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <noscript>
+        <p class="noscript-warning">For the best experience, turn on JavaScript to allow lightbox functionality.</p>
+    </noscript>
+
+    <hr>
+
+    <section>
+        <div id="gallery-container">
+            <a href="../gallery/DP2Q0139.webp" class="gallery-link"><img src="../gallery/DP2Q0139.thumb.webp" alt="Mist over the valley" width="300" height="200" loading="lazy"></a>
+            <a href="../gallery/DP2Q0234.webp" class="gallery-link"><img src="../gallery/DP2Q0234.thumb.webp" alt="Urban architecture in sharp detail" width="300" height="200" loading="lazy"></a>
+            <a href="../gallery/DP2Q0339.webp" class="gallery-link"><img src="../gallery/DP2Q0339.thumb.webp" alt="Forest path in morning light" width="300" height="200" loading="lazy"></a>
+            <a href="../gallery/DP2Q0347.webp" class="gallery-link"><img src="../gallery/DP2Q0347.thumb.webp" alt="Macro shot of a wildflower" width="300" height="200" loading="lazy"></a>
+            <a href="../gallery/DP2Q0402.webp" class="gallery-link"><img src="../gallery/DP2Q0402.thumb.webp" alt="Coastal cliffs at sunset" width="300" height="200" loading="lazy"></a>
+            <a href="../gallery/DP2Q0423.webp" class="gallery-link"><img src="../gallery/DP2Q0423.thumb.webp" alt="Mountain peak reaching through clouds" width="300" height="200" loading="lazy"></a>
+            <a href="../gallery/DP2Q0983.webp" class="gallery-link"><img src="../gallery/DP2Q0983.thumb.webp" alt="Autumn leaves on a stone wall" width="300" height="200" loading="lazy"></a>
+        </div>
+
+        <dialog id="lightbox-dialog">
+            <div class="dialog-content">
+                <img id="lightbox-img" src="" alt="Full view of photo">
+            </div>
+            <div id="return-container">
+                <button id="lightbox-return" aria-label="Return to gallery">
+                    <div id="dynamic-photo-pile" class="photo-pile"></div>
+                    <span class="return-text">Return to Gallery</span>
+                </button>
+            </div>
+            <div id="loupe-lightbox" class="loupe-element"></div>
+        </dialog>
+    </section>
+</main>
+
+<footer>
+    <p>Copyright &copy; 2026 D. T. Markarian. All rights reserved.</p>
+</footer>
+
+<script src="../assets/js/pile.js" defer></script>
+</body>
+</html>

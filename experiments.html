@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>D. Markarian - Experiments</title>
+    <!-- Placeholder script for analytics -->
+    <script src="https://example.com/analytics.js" async></script>
+</head>
+
+<body>
+<nav>
+    <a href="index.html"><h1>D. Markarian</h1></a>
+    <ul>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="courseware.html">Courseware</a></li>
+        <li><a href="photography/index.html">Photography</a></li>
+        <li><a href="me.html">About</a></li>
+        <li><a href="experiments.html">Experiments</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <h1>Experimental / Media</h1>
+        <p>This page contains various media and experimental tags.</p>
+
+        <h2>Audio Player</h2>
+        <audio controls aria-label="Audio sample">
+            <source src="assets/sample.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h2>Video Player</h2>
+        <video width="320" height="240" controls aria-label="Video sample">
+            <source src="assets/sample.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h2>Canvas</h2>
+        <canvas id="myCanvas" width="200" height="100" aria-label="Interactive drawing area">
+            Your browser does not support the HTML canvas tag.
+        </canvas>
+        <script>
+            // Allowable script for canvas exploration
+            const canvas = document.getElementById("myCanvas");
+            if (canvas.getContext) {
+                const ctx = canvas.getContext("2d");
+                ctx.fillStyle = "blue";
+                ctx.fillRect(10, 10, 150, 80);
+            }
+        </script>
+
+        <h2>Template Content</h2>
+        <p>Below is a hidden template, intended to be cloned via JavaScript.</p>
+        <template id="experiment-template">
+            <div class="experiment-box">
+                <h3>Template Heading</h3>
+                <p>This is content from the template.</p>
+            </div>
+        </template>
+    </section>
+</main>
+
+<footer>
+Copyright &copy; 2026 D. T. Markarian. All rights reserved.
+</footer>
+
+</body>
+</html>
