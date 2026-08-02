@@ -11,7 +11,7 @@ The page, designed to show off my photography, ultimately invokes the physical a
 
 ## CSS
 
-- The use of EB Garamond and small-caps text reflect classical elegant/premium magazine typography. The page uses shading to mimic the feel of pasted elements on top of a blank page, common in drafts during the analogue era of publishing. The lightbox mimics a photo on a desk, with skew and background blur used to demonstrate the feeling of picking up a photo and focusing on it. Animations subtly enhance some of these effects. An off-white base (`#fcfdfe`) with a deep charcoal text color is in use, creating a pleasing but high-contrast look that feels more paper-like.
+The use of EB Garamond and small-caps text reflect classical elegant/premium magazine typography. The page uses shading to mimic the feel of pasted elements on top of a blank page, common in drafts during the analogue era of publishing. The lightbox mimics a photo on a desk, with skew and background blur used to demonstrate the feeling of picking up a photo and focusing on it. Animations subtly enhance some of these effects. An off-white base (`#fcfdfe`) with a deep charcoal text color is in use, creating a pleasing but high-contrast look that feels more paper-like. CSS variables are put to use to offer some palette configurability.
 
 ## JavaScript
 This project features three major JavaScript enhancements.
